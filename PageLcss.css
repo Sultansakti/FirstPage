@@ -1,0 +1,174 @@
+/* NavBar */
+.navbar-brand {
+    font-family: Poppins;
+    font-size: 32px;
+}
+
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(assets/Pantai3.webp);
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 126px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+/* info panel */
+
+/* workingspce */
+
+.workingspace {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Style for Font Awesome icons */
+.social-media a i {
+    font-size: 24px;
+}
+
+
+
+
+
+/* utility */
+
+.tombol {
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 40px;
+}
+
+
+
+/* Desktop version */
+@media (min-width: 992px) { 
+
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin: 0px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #B77855;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5%;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+
+    .card-deck {
+        margin: 50px;
+        text-align: center;
+        height: auto;
+        border-bottom: 10px;
+        padding: 10px;
+        
+        
+    }
+
+    .card {
+        border-bottom: 10px;
+        margin-top: 5%;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
+        
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+    }
+    
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .footer-logo img {
+        width: 100px;
+        height: auto;
+    }
+    
+    .footer-info p {
+        margin: 5px 0;
+    }
+    
+    .social-media a {
+        color: #fff;
+        font-size: 24px;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+    
+    /* Style for Font Awesome icons */
+    .social-media a i {
+        font-size: 24px;
+    }
+
+
+
+ }
